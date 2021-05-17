@@ -1,0 +1,33 @@
+.review {
+    border-radius: 5px;
+    padding: 24px 30px 30px 24px;
+    background-color: rgb(241, 241, 241);
+    margin-bottom: 24px;
+}
+
+.review__author {
+    font-weight: 700;
+}
+
+.review__bottom {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review__text {
+    font-size: 18px;
+}
+
+.review__delete {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.review__deleteIcon {
+    position: relative;
+    top: 1px;
+    width: 18px;
+    margin-right: 4px;
+}

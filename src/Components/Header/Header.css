@@ -1,0 +1,65 @@
+.header {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav {
+    margin: 0;
+    padding: 24px 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header__item {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 32px;
+  }
+  
+  .header__item a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .header__item:nth-last-of-type(1) {
+    margin-right: 0;
+  }
+
+.header__auth {
+  display: flex;
+  align-items: center;
+}
+
+.header__user {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.header__icon {
+  display: block;
+  width: 24px;
+  margin-right: 8px;
+}
+
+.header__fullname {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.header__signout {
+    position: relative;
+    top: 1px;
+    line-height: 1;
+    color: rgb(143, 143, 143);
+    text-decoration: none;
+    font-size: 15px;
+}

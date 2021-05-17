@@ -1,0 +1,6 @@
+.modelPage__inner {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    grid-column-gap: 30px;
+    align-items: start;
+}

@@ -1,0 +1,26 @@
+.brands__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+}
+
+.brands__item {
+    display: flex;
+    color: inherit;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.brands__name {
+    transition: all .15s linear;
+}
+
+.brands__name:hover {
+    color: #db3727;
+}
+
+.brands__num {
+    margin-left: 8px;
+    font-weight: 500;
+    color: rgb(121, 121, 121);
+}

@@ -1,0 +1,51 @@
+h1 {
+    position: sticky;
+    top: 32px;
+}
+
+.reviewForm {
+    position: sticky;
+    top: 96px;
+    min-height: 0;
+    background-color: #f1f1f1;
+    padding: 24px;
+}
+
+.reviewForm__input {
+    resize: none;
+    box-sizing: border-box;
+    min-height: 150px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid rgb(224, 224, 224);
+    font-size: 15px;
+    outline: none;
+    transition: all .2s linear;
+}
+
+.reviewForm__input:hover  {
+    border: 1px solid rgb(165, 165, 165);
+}
+
+.reviewForm__input:focus  {
+    border: 1px solid rgb(165, 165, 165);
+}
+
+.reviewForm__add {
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    padding: 14px 18px;
+    color: #1d1d1f;
+    font-weight: 600;
+    outline: none;
+    border: 1px solid #a8a8a8;
+    border-radius: 3px;
+    transition: all .2s linear;
+}
+
+.reviewForm__add:hover {
+    background-color: #1d1d1f;
+    color: #fff;
+    border: 1px solid #a8a8a800;
+}

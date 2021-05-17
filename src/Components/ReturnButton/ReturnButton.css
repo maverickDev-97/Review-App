@@ -1,0 +1,15 @@
+.returnButton {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.returnButton__icon {
+    width: 8px;
+}
+
+.returnButton__text {
+    margin-left: 6px;
+    color: #000;
+    font-weight: bold;
+}
